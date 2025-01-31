@@ -1,5 +1,3 @@
-# dicoding2
-
 # E-Commerce Instruction Streamlit
 
 ## Setup Environment - Anaconda
