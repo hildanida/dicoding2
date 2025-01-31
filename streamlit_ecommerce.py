@@ -6,9 +6,9 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Read the datasets
-all_df = pd.read_csv("C:/Users/ASUS/Downloads/E-Commerce Public/all_data.csv")
-df_products = pd.read_csv("C:/Users/ASUS/Downloads/E-Commerce Public/df_products.csv")
-customers_df = pd.read_csv("C:/Users/ASUS/Downloads/E-Commerce Public/customers_df.csv")
+all_df = pd.read_csv("all_data.csv")
+df_products = pd.read_csv("df_products.csv")
+customers_df = pd.read_csv("customers_df.csv")
 
 def create_rfm_df(all_df):
     all_df['total_price'] = all_df['price'] + all_df['freight_value']
